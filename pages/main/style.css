@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+body {
+  scroll-behavior: smooth;
+}
+
 /* header {
   display: flex;
   align-items: center;
@@ -38,6 +42,7 @@ a {
   font-size: 0.8rem;
   letter-spacing: 0.1rem;
   color: #fff;
+  padding-left: 10px;
 }
 
 nav {
@@ -53,8 +58,20 @@ nav {
 
 .nav-links {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex: 1 1 20rem;
+}
+
+.nav-links li:nth-child(1) {
+  border-bottom: 3px solid #F1CDB3;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  flex: 2 1 40rem;
 }
 
 .nav-links li {
@@ -80,7 +97,6 @@ body {
   justify-content: space-between;
   align-items: center;
   width: 80%;
-  /* min-height: 90vh; */
   overflow: hidden;
   margin: 0 auto;
 }
@@ -107,7 +123,7 @@ body {
   font-family: 'Arial', serif;
 }
 
-.hero-content button {
+.hero-content a {
   padding: 0.9rem 2.8rem;
   border-radius: 100px;
   background-color: #F1CDB3;
@@ -116,6 +132,7 @@ body {
   font-size: 1rem;
   letter-spacing: 0.06em;
   font-family: Georgia, serif;
+  color: #292929;
 }
 
 .hero-image img {
@@ -164,37 +181,52 @@ body {
 
 .carousel {
   background: #F6F6F6;
-  height: 800px;
+  overflow: hidden;
+  padding: 3.75rem 0;
 }
+
+.carousel-container {
+  width: 1200px;
+  /* display: flex;
+  align-items: center; */
+  margin: 0 auto;
+}
+
+.btn {
+  border: 2px solid #F1CDB3;
+  box-sizing: border-box;
+  border-radius: 100px;
+  padding: 1.4rem 1.2rem;
+  cursor: pointer;
+  width: 3.25rem;
+  height: 3.25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 
 .carousel h3 {
   text-align: center;
   padding: 5rem 0;
+  font-size: 2.18rem;
+  color: #545454;
+  font-weight: 400;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.slider {
-  width: 80%;
+.slider::-webkit-scrollbar {
+  visibility: hidden;
+}
+
+/* .card {
   display: flex;
   justify-content: center;
   margin: 0 auto;
-}
+  background-color: #FAFAFA;
+} */
 
-.card {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-.slider-img {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  gap: 1.5rem;
-  background-color: #fff;
-  padding: 1rem;
-}
-
-.slider-img button {
+.card-btn {
   width: 70%;
   margin: 0 auto;
   border: 2px #F1CDB3 solid;
@@ -204,4 +236,21 @@ body {
   cursor: pointer;
   font-family: Georgia, serif;
   font-size: 1rem;
+}
+
+.main-btn {
+  display: flex;
+  padding-top: 4.37rem;
+  justify-content: center;
+}
+
+.main-btn a {
+  font-family: 'Georgia', serif;
+  font-size: 1.1rem;
+  letter-spacing: 0.06rem;
+  color: #292929;
+  border-radius: 100px;
+  padding: 0.9rem 2.8rem;
+  background: #f1cdb3;
+  border: none;
 }
