@@ -6,22 +6,12 @@
 
 body {
   scroll-behavior: smooth;
+  background-image: url(/assets/images/background-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  height: 5vh;
 }
-
-/* header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  min-height: 10vh;
-} */
-
-/* .container {
-  width: 1200px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 0 auto;
-} */
 
 a {
   text-decoration: none;
@@ -84,19 +74,12 @@ nav {
   font-size: 0.9rem;
 }
 
-body {
-  background-image: url(/assets/images/background-image.png);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  height: 5vh;
-}
-
 .hero-section {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 80%;
+  height: 85vh;
   overflow: hidden;
   margin: 0 auto;
 }
@@ -128,15 +111,17 @@ body {
   border-radius: 100px;
   background-color: #F1CDB3;
   border: none;
-  width: 25%;
+  width: 30%;
   font-size: 1rem;
   letter-spacing: 0.06em;
   font-family: Georgia, serif;
   color: #292929;
+  text-align: center;
 }
 
-.hero-image img {
-  padding-top: 85px;
+.hero-image  {
+  display: flex;
+  height: 85vh;
 }
 
 .about {
@@ -219,12 +204,7 @@ body {
   visibility: hidden;
 }
 
-/* .card {
-  display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  background-color: #FAFAFA;
-} */
+
 
 .card-btn {
   width: 70%;
@@ -254,3 +234,145 @@ body {
   background: #f1cdb3;
   border: none;
 }
+
+/*  ===== Start of Help section ===== */
+.help {
+  text-align: center;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  width: 11%;
+  margin: 34px 54px;
+}
+
+/*  ===== End of Help section ===== */
+
+
+/*  ===== Start of Donation section ===== */
+.donation {
+  padding: 9rem 0;
+  background: #F6F6F6;
+}
+
+.container-donation {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0 5rem;
+}
+
+.donation-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.donation-text h3, h5, .credit-card h4  {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.donation-text h3, h5, .credit-card h4 {
+  color: #545454;
+}
+
+.donation-text h3 {
+  font-size: 2.18rem;
+  letter-spacing: 0.06rem;
+  line-height: 130%;
+}
+
+.donation-text h5 {
+  font-size: 0.9rem;
+  letter-spacing: 0.06em;
+}
+
+.credit-card {
+  gap: 0.8rem;
+  background: #F1CDB3;
+  border-radius: 9px;
+  display: flex;
+  align-items: center;
+  padding: 0.6rem 0.9rem;
+  font-size: 1.25rem;
+  width: fit-content;
+  line-height: 1.43rem;
+  letter-spacing: 0.06em;
+}
+
+.donation-text p {
+  font-size: 0.75rem;
+  line-height: 1.12rem;
+  font-family: 'Arial';
+  font-style: italic;
+  color: #B2B2B2;
+  width: 75%;
+}
+
+/*  ===== End of Donation section ===== */
+
+/*  ===== Start of Footer section ===== */
+footer {
+  background-image: url("/assets/images/footer-gradient-background.png");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 3rem;
+}
+
+.footer-container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.puppy-img {
+ display: flex;
+ justify-content: center;
+ align-items: flex-end;
+}
+
+.footer-text h3 {
+  color: #FFFFFF;
+  font-size: 2.18rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  letter-spacing: 0.06em;
+  line-height: 2.81rem;
+}
+
+.text-1, .text-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.email, .telephone, .location-1, .location-2 {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.25rem;
+  line-height: 1.43rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: #F1CDB3;
+}
+
+/*  ===== End of Footer section ===== */
