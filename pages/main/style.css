@@ -111,7 +111,7 @@ nav {
   border-radius: 100px;
   background-color: #F1CDB3;
   border: none;
-  width: 30%;
+  width: 32%;
   font-size: 1rem;
   letter-spacing: 0.06em;
   font-family: Georgia, serif;
@@ -355,7 +355,7 @@ nav {
 
 /*  ===== Start of Footer section ===== */
 footer {
-  background-image: url("/assets/images/footer-gradient-background.png");
+  background-image: url(../../assets/images/footer-gradient-background.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
