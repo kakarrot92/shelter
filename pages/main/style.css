@@ -238,11 +238,19 @@ nav {
 /*  ===== Start of Help section ===== */
 .help {
   text-align: center;
+  padding: 1.5rem 0;
 }
 
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.help-heading {
+  font-size: 2.18rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 1.5rem 0;
+  color: #545454;
 }
 
 .items {
@@ -254,8 +262,30 @@ nav {
 }
 
 .item {
-  width: 11%;
-  margin: 34px 54px;
+ display: grid;
+ grid-template-columns: repeat(1,1fr);
+ width: 20%;
+ padding: 1.5rem;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.flex img {
+  width: 30%;
+}
+
+.item h4 {
+  font-size: 1.25rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  line-height: 1.43rem;
+  color: #545454;
 }
 
 /*  ===== End of Help section ===== */
