@@ -341,6 +341,7 @@ nav {
   width: fit-content;
   line-height: 1.43rem;
   letter-spacing: 0.06em;
+  cursor: pointer;
 }
 
 .donation-text p {
