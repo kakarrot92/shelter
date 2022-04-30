@@ -172,8 +172,6 @@ nav {
 
 .carousel-container {
   width: 1200px;
-  /* display: flex;
-  align-items: center; */
   margin: 0 auto;
 }
 
@@ -402,6 +400,10 @@ footer {
   font-size: 1.25rem;
   line-height: 1.43rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
+  
+}
+
+.email a, .telephone a, .location-1 a, .location-2 a {
   color: #F1CDB3;
 }
 

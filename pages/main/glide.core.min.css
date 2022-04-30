@@ -49,6 +49,10 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+.glide__slide:hover {
+  background-color: #545454;
+}
+
 
 
 .glide__slide p {
