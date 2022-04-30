@@ -50,7 +50,13 @@
 }
 
 .glide__slide:hover {
-  background-color: #545454;
+  background-color: #f1e7e7;
+  cursor: pointer;
+}
+
+.glide__slide:hover .card-btn{
+  background-color: #F1CDB3;
+  cursor: pointer;
 }
 
 
