@@ -11,6 +11,7 @@ body {
   background-size: cover;
   background-position: top;
   height: 5vh;
+  font-weight: 400;
 }
 
 a {
@@ -72,6 +73,7 @@ nav {
   font-family: Arial, serif;
   color: #CDCDCD;
   font-size: 0.9rem;
+  font-weight: 400;
 }
 
 .hero-section {
@@ -188,7 +190,6 @@ nav {
   align-items: center;
 }
 
-
 .carousel h3 {
   text-align: center;
   padding: 5rem 0;
@@ -202,8 +203,6 @@ nav {
   visibility: hidden;
 }
 
-
-
 .card-btn {
   width: 70%;
   margin: 0 auto;
@@ -216,6 +215,10 @@ nav {
   font-size: 1rem;
 }
 
+.glide__slide h4 {
+  color: #545454;
+  font-size: 1.25rem;
+}
 
 .main-btn {
   display: flex;
