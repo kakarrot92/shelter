@@ -79,3 +79,12 @@
   cursor: -moz-grabbing;
   cursor: -webkit-grabbing;
 }
+
+@media all and (max-width: 768px) {
+  .glide__arrow--left {
+    left: -2.5em;
+  }
+  .glide__arrow--right {
+    right: -2em;
+  }
+}

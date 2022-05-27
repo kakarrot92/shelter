@@ -413,3 +413,122 @@ footer {
 }
 
 /*  ===== End of Footer section ===== */
+
+@media all and (max-width: 768px) {
+
+  body {
+    height: 125vh;
+  }
+
+  nav {
+    width: 90%;
+  }
+
+  .logo {
+    flex: 1 2 12rem;
+  }
+
+  .hero-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: visible;
+    height: unset;
+    
+  }
+
+  .hero-content {
+    align-items: center;
+  }
+
+  .hero-content h2 {
+    width: 75%;
+  }
+
+  .hero-content p {
+    width: 75%;
+  }
+
+  .hero-content a {
+    width: unset;
+  }
+
+  .hero-image {
+    padding-top: 4rem;
+    width: 100%;
+    height: auto;
+    justify-content: flex-end;
+  }
+
+  .hero-image img {
+    width: 80%;
+  }
+
+  .about-container {
+    flex-direction: column-reverse;
+  }
+
+  .pets-pic {
+    padding: 0 0 5rem 0;
+  }
+
+  .about-content {
+    width: unset;
+  }
+
+  .carousel-container {
+    width: unset;
+    height: auto;
+  }
+
+  .glide {
+    width: 85%;
+  }
+
+  .container {
+    width: unset;
+  }
+
+  .items {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    justify-content: center;
+  }
+
+  .item {
+    width: 100%;
+  }
+
+  .container-donation {
+    width: unset;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .donation-text {
+    align-items: flex-start;
+    width: 70%;
+  }
+
+  .donation-text p {
+    width: unset;
+  }
+
+  .footer-container {
+    width: unset;
+  }
+
+  .footer-text {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+    justify-items: center;
+    row-gap: 3rem;
+  }
+
+  .puppy-img {
+    grid-column: 1/3;
+  }
+
+}

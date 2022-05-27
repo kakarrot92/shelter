@@ -248,6 +248,14 @@
         type: "carousel",
         startAt: 0,
         perView: 3,
+        breakpoints: {
+          768: {
+            perView: 2
+          },
+          640: {
+            perView: 1
+          }
+        }
       };
       new Glide(".glide", config).mount();
     </script>

@@ -84,3 +84,11 @@
 .glide--rtl {
   direction: rtl;
 }
+
+@media all and (max-width: 768px) {
+
+  .glide-slide {
+    width: 150px;
+  }
+
+}
