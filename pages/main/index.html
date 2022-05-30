@@ -9,28 +9,32 @@
     <link rel="stylesheet" href="./glide.core.min.css">
     <link rel="stylesheet" href="./glide.theme.min.css">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
   </head>
   <body>
+    <div class="background">
       <header>
         <nav>
+          
           <div class="logo">
             <a href="./index.html">
               <h2 class="logo-upper-text">Cozy House</h2>
               <p class="logo-lower-text">Shelter for pets in Boston</p>
             </a>
           </div>
+          <div class="open-btn">
+            <i class="fa-solid fa-bars fa-2x"></i>
+          </div>
+         
           <ul class="nav-links">
+            <li><i class="fa-solid fa-bars fa-2x close-btn"></i></li>
             <li><a href="#about">About the shelter</a></li>
             <li><a href="../pets/index.html">Our pets</a></li>
             <li><a href="#help">Help shelter</a></li>
             <li><a href="#contacts">Contacts</a></li>
           </ul>
-          <div class="burger">
-            <span class="line1"></span>
-            <span class="line2"></span>
-            <span class="line3"></span>
-          </div>
         </nav>
+      
       </header>
       <!-- end of header section -->
         <section class="hero-section">
@@ -42,6 +46,7 @@
             <div class="hero-image">
               <img src="../../assets/images/ceku.png" alt="dog picture">
             </div>
+          </div>
         </section>
         <section class="about">
           <div class="about-container">
@@ -62,6 +67,7 @@
             </div>
           </div>
         </section>
+      
         <!-- Carousel/Slider section -->
         <section class="carousel" id="our-friends">
           <div class="carousel-container">
@@ -254,7 +260,7 @@
           },
           640: {
             perView: 1
-          }
+          },
         }
       };
       new Glide(".glide", config).mount();

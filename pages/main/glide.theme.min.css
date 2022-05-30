@@ -88,3 +88,14 @@
     right: -2em;
   }
 }
+
+@media all and (max-width: 320px) {
+  .glide__arrow--left {
+    top: 24em;
+    left: 2em;
+  }
+  .glide__arrow--right {
+    top: 24em;
+    right: 2em;
+  }
+}

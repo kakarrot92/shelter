@@ -92,3 +92,9 @@
   }
 
 }
+
+@media all and (max-width: 320px) {
+  .glide__slides {
+    gap: unset;
+  }
+}
